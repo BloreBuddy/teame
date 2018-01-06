@@ -11,7 +11,7 @@ datame = {
 }
 
 
-browser = Browser('phantomjs', user_agent='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3187.0 Safari/537.36')
+browser = Browser('phantomjs', user_agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3187.0 Safari/537.36')
 #browser = Browser('chrome', headless = True)
 
 # browser.visit('https://google.co.in')
