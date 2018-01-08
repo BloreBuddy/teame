@@ -36,7 +36,7 @@ if browser.is_text_present('Choose your nick:'):
         browser.windows.current = browser.windows[1]
         #browser.visit('http://noki.chatovod.com/widget/login?n=fb')
         browser.fill('email', 'chatmod@gmail.com')
-        browser.fill('pass', 'memod@007')
+        browser.fill('pass', 'memod')
         button1 = browser.find_by_name("login")
         button1.click()
         print('attempted')
