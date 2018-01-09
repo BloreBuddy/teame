@@ -45,7 +45,7 @@ if browser.is_text_present('Choose your nick:'):
         print(browser.html)
 
         browser.windows.current = browser.windows[0]
-        browser.screenshot("bchk","png")
+        browser.screenshot("bchk",".png")
         browser.reload()
 
         if browser.is_text_present('roshan'):
