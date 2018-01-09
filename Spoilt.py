@@ -40,12 +40,14 @@ if browser.is_text_present('Choose your nick:'):
         button1 = browser.find_by_name("login")
         button1.click()
         print('attempted')
+        print(browser.html)
+
         browser.windows.current = browser.windows[0]
         browser.reload()
+
         if browser.is_text_present('roshan'):
             print("YazzAgain!")
-        else:
-            print(browser.html)
+
         p=0
         while(1):
             element_list = browser.find_by_xpath("(//div[@class='chatMessage ts'])[last()]//span[@class='minor']")
