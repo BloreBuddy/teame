@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef90ab2b-2cfc-4dd0-87be-94978ff6e96b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Spoilt.py" afterPath="$PROJECT_DIR$/Spoilt.py" />
-    </list>
+    <list default="true" id="ef90ab2b-2cfc-4dd0-87be-94978ff6e96b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Spoilt.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Spoilt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spoilt.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
@@ -21,6 +19,16 @@
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vim-heroku.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vim-heroku.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -251,6 +259,14 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vim-heroku.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
