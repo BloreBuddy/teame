@@ -15,7 +15,7 @@ datame = {
 
 browser = Browser('phantomjs', user_agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3187.0 Safari/537.36')
 #browser = Browser('chrome', headless = True)
-dr= PhantomJSWebDriver.PhantomJS()
+
 # browser.visit('https://google.co.in')
 # browser.fill('q', 'splinter - python acceptance testing for web applications')
 # browser.find_by_name('btnK').click()
