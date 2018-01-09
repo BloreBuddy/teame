@@ -45,7 +45,7 @@ if browser.is_text_present('Choose your nick:'):
         if browser.is_text_present('roshan'):
             print("YazzAgain!")
         else:
-            print("Nopes")
+            print(browser.html)
         p=0
         while(1):
             element_list = browser.find_by_xpath("(//div[@class='chatMessage ts'])[last()]//span[@class='minor']")
