@@ -42,13 +42,16 @@ if browser.is_text_present('Choose your nick:'):
         button1 = browser.find_by_name("login")
         button1.click()
         print('attempted')
-        print(browser.html)
+        # print(browser.html)
 
         browser.windows.current = browser.windows[0]
+        browser.driver.save_screenshot('picturepic.png')
         # browser.screenshot("bchk",".png")
+
+
         browser.reload()
 
-        if browser.is_text_present('roshan'):
+        if browser.is_text_present('Ricky'):
             print("YazzAgain!")
 
         p=0
