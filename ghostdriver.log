@@ -1,9 +1,9 @@
-[INFO  - 2018-01-10T15:35:43.538Z] GhostDriver - Main - running on port 53477
-[INFO  - 2018-01-10T15:35:44.071Z] Session [ebea7310-f61b-11e7-b3af-0d3ea316c34a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3187.0 Safari/537.36","webSecurityEnabled":true}
-[INFO  - 2018-01-10T15:35:44.071Z] Session [ebea7310-f61b-11e7-b3af-0d3ea316c34a] - page.customHeaders:  - {}
-[INFO  - 2018-01-10T15:35:44.071Z] Session [ebea7310-f61b-11e7-b3af-0d3ea316c34a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3187.0 Safari/537.36","phantomjs.page.settings.loadImages":true}
-[INFO  - 2018-01-10T15:35:44.071Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ebea7310-f61b-11e7-b3af-0d3ea316c34a
-[ERROR - 2018-01-10T15:35:46.933Z] Session [ebea7310-f61b-11e7-b3af-0d3ea316c34a] - page.onError - msg:  [  0.637s] [chatovod.SoundManager] Cannot create sound, try 1: msg, //st1.chatovod.com/widget/sounds/msg.
+[INFO  - 2018-01-10T16:18:39.327Z] GhostDriver - Main - running on port 54137
+[INFO  - 2018-01-10T16:18:39.896Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3187.0 Safari/537.36","webSecurityEnabled":true}
+[INFO  - 2018-01-10T16:18:39.896Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.customHeaders:  - {}
+[INFO  - 2018-01-10T16:18:39.896Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3187.0 Safari/537.36","phantomjs.page.settings.loadImages":true}
+[INFO  - 2018-01-10T16:18:39.896Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: eb3a2720-f621-11e7-851c-f5ff29ef4be7
+[ERROR - 2018-01-10T16:18:42.833Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.onError - msg:  [  0.521s] [chatovod.SoundManager] Cannot create sound, try 1: msg, //st1.chatovod.com/widget/sounds/msg.
 Message: Can't find variable: Audio
 Url: <a href="view-source:http://st1.chatovod.com/chat/js/widget-en.js?19" target="_new">http://st1.chatovod.com/chat/js/widget-en.js?19</a>
 Line: Not available
@@ -22,20 +22,55 @@ b(object)
 
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-01-10T15:35:46.933Z] Session [ebea7310-f61b-11e7-b3af-0d3ea316c34a] - page.onError - stack:
+[ERROR - 2018-01-10T16:18:42.833Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.onError - stack:
   Af (http://st1.chatovod.com/chat/js/common-en.js?19:93)
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-01-10T15:35:46.933Z] Session [ebea7310-f61b-11e7-b3af-0d3ea316c34a] - page.onError - msg:  [  0.639s] [chatovod.SoundManager] No ogg or mp3 codec found
+[ERROR - 2018-01-10T16:18:42.833Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.onError - msg:  [  0.524s] [chatovod.SoundManager] No ogg or mp3 codec found
 
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2018-01-10T15:35:46.933Z] Session [ebea7310-f61b-11e7-b3af-0d3ea316c34a] - page.onError - stack:
+[ERROR - 2018-01-10T16:18:42.833Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.onError - stack:
   Af (http://st1.chatovod.com/chat/js/common-en.js?19:93)
 
   phantomjs://platform/console++.js:263 in error
-[INFO  - 2018-01-10T15:35:49.789Z] Session [ebea7310-f61b-11e7-b3af-0d3ea316c34a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3187.0 Safari/537.36","webSecurityEnabled":true}
-[INFO  - 2018-01-10T15:35:49.885Z] Session [ebea7310-f61b-11e7-b3af-0d3ea316c34a] - page.customHeaders:  - {}
-[INFO  - 2018-01-10T15:40:43.539Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-01-10T15:45:43.537Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-01-10T15:42:46.316Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-01-10T16:18:46.927Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3187.0 Safari/537.36","webSecurityEnabled":true}
+[INFO  - 2018-01-10T16:18:46.996Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.customHeaders:  - {}
+[ERROR - 2018-01-10T16:19:05.492Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.onError - msg:  [ 23.183s] [chatovod.widget] intercept server error: abort (abort[undefined])
+
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-10T16:19:05.500Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.onError - stack:
+  Af (http://st1.chatovod.com/chat/js/common-en.js?19:93)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-10T16:19:05.742Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.onError - msg:  [  0.013s] [chatovod.SoundManager] Cannot create sound, try 1: msg, //st1.chatovod.com/widget/sounds/msg.
+Message: Can't find variable: Audio
+Url: <a href="view-source:http://st1.chatovod.com/chat/js/widget-en.js?19" target="_new">http://st1.chatovod.com/chat/js/widget-en.js?19</a>
+Line: Not available
+
+Browser stack:
+load@http://st1.chatovod.com/chat/js/widget-en.js?19:135:59
+http://st1.chatovod.com/chat/js/widget-en.js?19:266:197
+global code@http://casualtalk.chatovod.com/:236:29-&gt; [end]
+
+JS stack traversal:
+[Anonymous](object, Cannot create sound, try 1: msg, //st1.c..., object)
+D(object, Cannot create sound, try 1: msg, //st1.c..., object)
+[Anonymous](msg, //st1.chatovod.com/widget/sounds/msg.)
+b(object)
+[end]-&gt; 
+
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-10T16:19:05.743Z] Session [[INFO  - 2018-01-10T16:22:46.338Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-01-10T16:27:46.336Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+  0.014s] [chatovod.SoundManager] No ogg or mp3 codec found
+
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-01-10T16:19:05.743Z] Session [eb3a2720-f621-11e7-851c-f5ff29ef4be7] - page.onError - stack:
+  Af (http://st1.chatovod.com/chat/js/common-en.js?19:93)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-01-10T16:23:39.329Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
