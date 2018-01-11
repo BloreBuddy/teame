@@ -62,14 +62,14 @@ if browser.is_text_present('Choose your nick:'):
 
         browser.reload()
 
-        if browser.is_text_present('Ricky'):
-            print("YazzAgain!")
+        # if browser.is_text_present('Ricky'):
+        #     print("YazzAgain!")
 
         p=0
         while(1):
             element_list = browser.find_by_xpath("(//div[@class='chatMessage ts'])[last()]//span[@class='minor']")
             try:
-                while(element_list.is_empty() or (element_list.first.text.upper().replace('REH','') != 'ANA.. HAS JOINED THIS ROOM')):
+                while(element_list.is_empty() or (element_list.first.text.upper().replace('REH','') != 'ANA.. HAS JOINED THIS ROOM' and element_list.first.text.upper() != 'NAVIN HAS JOINED THIS ROOM')):
                         element_list = browser.find_by_xpath("(//div[@class='chatMessage ts'])[last()]//span[@class='minor']")
                         p=0
                     # browser.find_by_xpath("(//div[@class='chatMessage ts'])[last()]//a[@data-nick='Vijay']")
