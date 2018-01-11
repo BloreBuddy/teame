@@ -38,16 +38,21 @@ if browser.is_text_present('Choose your nick:'):
         browser.windows.current = browser.windows[1]
         #browser.visit('http://noki.chatovod.com/widget/login?n=fb')
         browser.fill('email', 'chatmod@gmail.com')
-        browser.fill('pass', 'wecap@321')
+        browser.fill('pass', 'tipit@321')
         button1 = browser.find_by_name("login")
         button1.click()
         print('attempted')
-        # print(browser.html)
+
+
+        if(len(browser.windows)==2):
+            button2 = browser.find_by_value("Continue")
+            button2.click()
+            print(browser.wait_time)
 
         browser.windows.current = browser.windows[0]
-        browser.driver.save_screenshot('picturepic.png')
-        browser.screenshot("bchk",".png")
-
+        print(browser.windows.current)
+        # browser.driver.save_screenshot('picturepic.png')
+        # browser.screenshot("bchk",".png")
 
         browser.reload()
 
