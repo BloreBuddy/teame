@@ -43,13 +43,16 @@ if browser.is_text_present('Choose your nick:'):
         sleep(3)
 
         if(len(browser.windows)==2):
-            print(browser.html)
+            # print(browser.html)
             button2 = browser.find_by_value("Continue")
             button2.click()
-            sleep(60)
+            sleep(3)
             button3 = browser.find_by_value("Continue")
             button3.click()
-            sleep(3)
+            sleep(60)
+            button4 = browser.find_by_value("Continue")
+            button4.click()
+            sleep(60)
 
         browser.windows.current = browser.windows[0]
         #print(browser.windows.current)
