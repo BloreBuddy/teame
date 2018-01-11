@@ -3,15 +3,13 @@ import sys
 import json
 from splinter import Browser
 import selenium
+from time import sleep
 
 datame = {
   'message': 'Urgent! I need some help.',
   'level': 5,
   'secret': '35926afd4ca93c229ba6201805031273'
 }
-
-
-
 
 browser = Browser('phantomjs', user_agent='Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3187.0 Safari/537.36')
 #browser = Browser('chrome', headless = True)
@@ -42,15 +40,19 @@ if browser.is_text_present('Choose your nick:'):
         button1 = browser.find_by_name("login")
         button1.click()
         print('attempted')
-
+        sleep(3)
 
         if(len(browser.windows)==2):
+            print(browser.html)
             button2 = browser.find_by_value("Continue")
             button2.click()
-            print(browser.wait_time)
+            sleep(60)
+            button3 = browser.find_by_value("Continue")
+            button3.click()
+            sleep(3)
 
         browser.windows.current = browser.windows[0]
-        print(browser.windows.current)
+        #print(browser.windows.current)
         # browser.driver.save_screenshot('picturepic.png')
         # browser.screenshot("bchk",".png")
 
